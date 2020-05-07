@@ -6,3 +6,13 @@
 //              ##### 
 //             ######
 
+import java.util.Scanner;
+public class Staircase
+{
+	public static void main(String[] args)
+	{
+		Scanner scan= new Scanner(System.in);
+		Sysytem.out.println("Enter the height of Staircase: ");
+		int height = scan.nextInt();   //Input for height of staircase
+
+		int c=height-1;
