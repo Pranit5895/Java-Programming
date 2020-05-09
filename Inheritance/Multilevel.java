@@ -18,3 +18,10 @@ class two extends one
         System.out.println("for");
     }
 }
+class three extends two
+{
+    public void print_geek()
+    {
+        System.out.println("Geeks");
+    }
+}
