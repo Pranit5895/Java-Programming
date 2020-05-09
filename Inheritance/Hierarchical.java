@@ -23,3 +23,15 @@ class three extends one
 {
     /*............*/
 }
+/ Drived class
+public class Main
+{
+    public static void main(String[] args)
+    {
+        three g = new three();
+        g.print_geek();
+        two t = new two();
+        t.print_for();
+        g.print_geek();
+    }
+}
