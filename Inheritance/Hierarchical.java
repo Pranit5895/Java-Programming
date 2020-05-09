@@ -10,4 +10,16 @@ class one
     { 
         System.out.println("Geeks"); 
     } 
-} 
+}
+class two extends one
+{
+    public void print_for()
+    {
+        System.out.println("for");
+    }
+}
+
+class three extends one
+{
+    /*............*/
+}
