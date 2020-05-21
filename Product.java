@@ -15,3 +15,13 @@ public class Demo {
         
         System.out.print("Enter second number: ");
         int num2 = scan.nextInt();
+	 // Closing Scanner after the use
+        scan.close();
+
+        // Calculating product of two numbers
+        int product = num1*num2;
+
+        // Displaying the multiplication result
+        System.out.println("Output: "+product);
+    }
+}
