@@ -8,3 +8,5 @@ public class Demo {
     	System.out.println("Enter any Year:");
     	year = scan.nextInt();
     	scan.close();
+	 boolean isLeap = false;
+
