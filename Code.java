@@ -8,3 +8,16 @@ class JavaExample
 	System.out.println("Enter a character : ");
 	char ch=scanner.next().charAt(0); 
 	scanner.close();
+	switch(ch)
+	{
+	   case 'a' :
+	   case 'e' :
+    	   case 'i' :
+	   case 'o' :
+	   case 'u' :
+	   case 'A' :
+	   case 'E' :
+	   case 'I' :
+	   case 'O' :
+	   case 'U' : isVowel = true;
+	}
