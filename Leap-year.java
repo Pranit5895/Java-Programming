@@ -15,3 +15,12 @@ public class Demo {
             {
                 if ( year % 400 == 0)
                     isLeap = true;
+		 else
+                    isLeap = false;
+            }
+            else
+                isLeap = true;
+        }
+        else {
+            isLeap = false;
+        }
