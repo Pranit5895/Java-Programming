@@ -21,3 +21,6 @@ class JavaExample
 	   case 'O' :
 	   case 'U' : isVowel = true;
 	}
+	if(isVowel == true) {
+	   System.out.println(ch+" is  a Vowel");
+	}
