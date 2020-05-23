@@ -64,4 +64,26 @@ public static void Mergesort(int array[], int big,int mid,int end)
 
 		for (int j = 0; j < r; ++j)
 			RightArray[j] = array[mid + 1 + j];
+int i = 0, j = 0;
+		int k = big;
+		while (i < l && j < r) {
+			if (LeftArray[i] <= RightArray[j]) {
+				array[k] = LeftArray[i];
+				i++;
+			} else {
+				array[k] = RightArray[j];
+				j++;
+			}
+			k++;
+		}
+		while (i < l) {
+			array[k] = LeftArray[i];
+			i++;
+			k++;
+		}
 
+		while (j < r) {
+			array[k] = RightArray[j];
+			j++;
+			k++;
+		}
