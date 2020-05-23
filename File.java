@@ -63,3 +63,24 @@ public class Files {
 				System.out.println("Error in InputStream close(): " + ioe);
 			}
 		}
+str Pass2= in.nextInt();
+	if(pass==Pass2)
+	{
+		try {
+			String mycontent = in.nextLine();
+			// Specify the file name and path here
+			File file = new File("G:\\HACKERRANK\\JAVAFORDUMMIES\\src\\DAY5\\newfile.txt");
+
+			/*
+			 * This logic will make sure that the file gets created if it is not present at
+			 * the specified location
+			 */
+			if (!file.exists()) {
+				file.createNewFile();
+			}
+
+			FileWriter fw = new FileWriter(file);
+			bw = new BufferedWriter(fw);
+			bw.write(mycontent);
+			System.out.println("File written Successfully");
+
