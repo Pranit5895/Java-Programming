@@ -87,3 +87,13 @@ int i = 0, j = 0;
 			j++;
 			k++;
 		}
+		}if (big < end) {
+			int mid = (big + end) / 2;
+			sort(array, big, mid);
+			sort(array, mid + 1, end);   // here we are sorting the array
+			merge(array, big, mid, end);
+		}
+	System.out.println(Arrays.toString(array));
+}
+}
+
