@@ -38,4 +38,16 @@ public class Sorting{
 		}
 		System.out.println(Arrays.toString(array));
 	}
-
+public static void Bubblesort(int array[])  //function for bubble sort
+	{
+		int n = array.length;
+		for (int i = 0; i < n - 1; i++)
+			for (int j = 0; j < n - i - 1; j++)
+				if (array[j] > array[j + 1]) {
+					// swap array[j+1] and array[i]
+					int temp = array[j];
+					array[j] = array[j + 1];
+					array[j + 1] = temp;
+				}
+		System.out.println(Arrays.toString(array));
+	}
