@@ -83,4 +83,19 @@ str Pass2= in.nextInt();
 			bw = new BufferedWriter(fw);
 			bw.write(mycontent);
 			System.out.println("File written Successfully");
-
+} catch (IOException ioe) {
+			ioe.printStackTrace();
+		} finally {
+			try {
+				if (bw != null)
+					bw.close();
+			} catch (Exception ex) {
+				System.out.println("Error in closing the BufferedWriter" + ex);
+			}
+		}
+	}
+	else
+	{ System.out.println("Wrong Password");
+	}
+    }
+}
