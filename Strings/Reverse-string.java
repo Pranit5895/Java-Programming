@@ -12,3 +12,10 @@ public class Example
         {
            String word = words[i];
            String reverseWord = "";
+	   for (int j = word.length()-1; j >= 0; j--)
+	   {
+		/* The charAt() function returns the character
+		 * at the given position in a string
+		 */
+		reverseWord = reverseWord + word.charAt(j);
+	   }
