@@ -17,3 +17,10 @@ class PalindromeTest {
         while (!stack.isEmpty()) {
             reverseString = reverseString+stack.pop();
         }
+	 if (inputString.equals(reverseString))
+            System.out.println("The input String is a palindrome.");
+        else
+            System.out.println("The input String is not a palindrome.");
+
+    }
+}
