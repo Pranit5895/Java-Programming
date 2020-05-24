@@ -19,3 +19,8 @@ public class Example
 		 */
 		reverseWord = reverseWord + word.charAt(j);
 	   }
+	    reversedString = reversedString + reverseWord + " ";
+	}
+	System.out.println(str);
+	System.out.println(reversedString);
+   }
