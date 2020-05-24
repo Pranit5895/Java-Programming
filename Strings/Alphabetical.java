@@ -21,3 +21,15 @@ public class JavaExample
         }
         scan.close();
         scan2.close();
+	//Sorting the strings
+        for (int i = 0; i < count; i++)
+        {
+            for (int j = i + 1; j < count; j++) {
+                if (str[i].compareTo(str[j])>0)
+                {
+                    temp = str[i];
+                    str[i] = str[j];
+                    str[j] = temp;
+                }
+            }
+        }
