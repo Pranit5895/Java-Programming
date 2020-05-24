@@ -24,3 +24,10 @@ public class Example
 	System.out.println(str);
 	System.out.println(reversedString);
    }
+   public static void main(String[] args)
+   {
+	Example obj = new Example();
+	obj.reverseWordInMyString("Welcome to BeginnersBook");
+	obj.reverseWordInMyString("This is an easy Java Program");
+   }
+}
