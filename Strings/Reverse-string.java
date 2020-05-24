@@ -8,3 +8,7 @@ public class Example
 	 */
 	String[] words = str.split(" ");
 	String reversedString = "";
+	for (int i = 0; i < words.length; i++)
+        {
+           String word = words[i];
+           String reverseWord = "";
