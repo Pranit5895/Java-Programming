@@ -24,3 +24,9 @@ int length;
 			while ((length = instream.read(buffer)) > 0) {
 				outstream.write(buffer, 0, length);
 			}
+			// Closing the input/output file streams
+			instream.close();
+			outstream.close();
+
+			System.out.println("File copied successfully!!");
+
