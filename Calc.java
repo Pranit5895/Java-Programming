@@ -10,3 +10,7 @@ public class calc {
 			operation = num1 + num2;
 		if (operator.contentEquals("*"))
 			operation = num1 * num2;
+		if (operator.contentEquals("-"))
+			operation = num1 - num2;
+		if (operator.contentEquals("/"))
+			operation = num1 / num2;
