@@ -29,4 +29,8 @@ int length;
 			outstream.close();
 
 			System.out.println("File copied successfully!!");
-
+} catch (IOException ioe) {
+			ioe.printStackTrace();
+		}
+	}
+}
