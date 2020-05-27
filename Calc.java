@@ -6,3 +6,7 @@ public class calc {
 		String operator = args[1];
 		int num2 = int.parseInt(args[2]);
 		int operation = 0;
+		if (operator.contentEquals("+")) // content equals is used to equate any character
+			operation = num1 + num2;
+		if (operator.contentEquals("*"))
+			operation = num1 * num2;
