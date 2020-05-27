@@ -16,4 +16,11 @@ public class File10 {
 			outstream = new FileOutputStream(outfile);
 
 			byte[] buffer = new byte[1024];
-
+int length;
+			/*
+			 * copying the contents from input stream to output stream using read and write
+			 * methods
+			 */
+			while ((length = instream.read(buffer)) > 0) {
+				outstream.write(buffer, 0, length);
+			}
