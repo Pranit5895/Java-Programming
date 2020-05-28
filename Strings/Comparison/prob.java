@@ -17,3 +17,11 @@ public class que2 {
 		}
 		return result;
 	}
+	public static void main(String[] args) {
+		System.out.println(LowerToUpper(new StringBuffer("IncludeHelp.com")));
+		System.out.println(LowerToUpper(new StringBuffer("www.example.com")));
+		System.out.println(LowerToUpper(new StringBuffer("123abcd@9081")));
+		System.out.println(LowerToUpper(new StringBuffer("OKAY@123")));
+	}
+}
+
