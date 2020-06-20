@@ -14,3 +14,7 @@ public class ListDemo {
         l2.add(1);
         l2.add(2);
         l2.add(3);
+
+	 // Will add list l2 from 1 index
+        l1.addAll(1, l2);
+        System.out.println(l1);
