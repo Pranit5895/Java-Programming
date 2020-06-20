@@ -18,3 +18,7 @@ public class ListDemo {
 	 // Will add list l2 from 1 index
         l1.addAll(1, l2);
         System.out.println(l1);
+
+	// Removes element from index 1
+        l1.remove(1);
+        System.out.println(l1); // [1, 2, 3, 2]
