@@ -1,3 +1,6 @@
+// Java program to demonstrate search 
+// operations on List interface 
+
 import java.util.*; 
   
 public class ListDemo { 
@@ -15,4 +18,7 @@ public class ListDemo {
                            + l.lastIndexOf("Geeks")); 
         System.out.println("Index of element"
                            + " not present : "
-                           + l.indexOf("Hello")); 
+                           + l.indexOf("Hello"));
+    }
+}
+
