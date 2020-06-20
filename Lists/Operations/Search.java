@@ -8,4 +8,11 @@ public class ListDemo {
         l.add("Geeks");
         l.add("for");
         l.add("Geeks");
-
+// Using indexOf() and lastIndexOf() 
+        System.out.println("first index of Geeks:"
+                           + l.indexOf("Geeks")); 
+        System.out.println("last index of Geeks:"
+                           + l.lastIndexOf("Geeks")); 
+        System.out.println("Index of element"
+                           + " not present : "
+                           + l.indexOf("Hello")); 
