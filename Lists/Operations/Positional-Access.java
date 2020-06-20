@@ -22,3 +22,6 @@ public class ListDemo {
 	// Removes element from index 1
         l1.remove(1);
         System.out.println(l1); // [1, 2, 3, 2]
+
+	// Prints element at index 3
+        System.out.println(l1.get(3));
