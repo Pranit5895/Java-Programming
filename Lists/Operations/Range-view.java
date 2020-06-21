@@ -12,3 +12,9 @@ public class ListDemo {
         l.add("Courses");
 
         List<String> range = new ArrayList<String>();
+
+	// Return List between 2nd(including)
+        // and 4th element(excluding)
+        range = l.subList(2, 4);
+
+        System.out.println(range);
