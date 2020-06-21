@@ -1,3 +1,6 @@
+// Java program to demonstrate subList operation 
+// on List interface. 
+
 import java.util.*; 
 public class ListDemo {
 	public static void main(String[] args)
@@ -18,3 +21,6 @@ public class ListDemo {
         range = l.subList(2, 4);
 
         System.out.println(range);
+    }
+}
+
