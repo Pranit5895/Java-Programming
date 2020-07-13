@@ -24,3 +24,5 @@ class GFG
          System.out.println("Element at index " + i +
                                       " : "+ arr[i]);
     }
+}
+
