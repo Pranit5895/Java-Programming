@@ -18,3 +18,9 @@ class GFG
       arr[2] = 30;
       arr[3] = 40;
       arr[4] = 50;
+
+       // accessing the elements of the specified array
+      for (int i = 0; i < arr.length; i++)
+         System.out.println("Element at index " + i +
+                                      " : "+ arr[i]);
+    }
