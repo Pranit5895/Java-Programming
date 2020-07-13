@@ -10,3 +10,6 @@ class GFG
 
       // initialize the first elements of the array
       arr[0] = 10;
+
+      // initialize the second elements of the array
+      arr[1] = 20;
