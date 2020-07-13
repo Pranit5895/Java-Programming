@@ -13,3 +13,8 @@ class GFG
 
       // initialize the second elements of the array
       arr[1] = 20;
+
+      //so on...
+      arr[2] = 30;
+      arr[3] = 40;
+      arr[4] = 50;
