@@ -1,3 +1,5 @@
+//Java program to demonstrate all functions
+
 // Class for Doubly Linked List 
 public class DLL { 
     Node head; // head of list
