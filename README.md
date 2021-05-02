@@ -21,3 +21,5 @@ Maven is a build automation tool used primarily for Java projects. Maven can als
 # How to Contribute
 1. Fork the repo and clone it in your local machine. 
 2. Create branch with your name
+3. For each problem solution you wish to add. First create folder of the with the problem name and add solution file with your name. For example Pranit.cpp
+4. Create pull request and wait for reviewing and merging 
