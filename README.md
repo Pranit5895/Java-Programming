@@ -17,3 +17,7 @@ The latest version of Java is Java 14 or JDK 14 released on March, 17th 2020 (fo
 
 # Apache Maven
 Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where it was formerly part of the Jakarta Project.
+
+# How to Contribute
+1. Fork the repo and clone it in your local machine. 
+2. Create branch with your name
