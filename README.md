@@ -12,9 +12,6 @@ In today’s world, Java has a vast variety of different uses. For example, Java
 
 If you are interested in using Java for app development, you might want to check out this great introductory course to fast and easy app development.
 
-# About java version?
-The latest version of Java is Java 14 or JDK 14 released on March, 17th 2020 (follow this article to check Java version on your computer). JDK 15 is in progress with early-access builds. There are many Java Versions such as JDK 8.0, JDK 15.0 etc 
-
 # Apache Maven
 Maven is a build automation tool used primarily for Java projects. Maven can also be used to build and manage projects written in C#, Ruby, Scala, and other languages. The Maven project is hosted by the Apache Software Foundation, where it was formerly part of the Jakarta Project.
 
